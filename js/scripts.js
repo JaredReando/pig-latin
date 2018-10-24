@@ -1,6 +1,10 @@
 
 var pigLatin = function(str) {
-  return str + " is what you entered.";
+  if (str === "a") {
+    return str + "way";
+  } else {
+    return "Sorry I cant do that";
+  }
 }
 
 
